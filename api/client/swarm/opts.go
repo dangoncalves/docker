@@ -28,7 +28,7 @@ const (
 var (
 	defaultPolicies = []swarm.Policy{
 		{Role: WORKER, Autoaccept: true},
-		{Role: MANAGER, Autoaccept: false},
+		{Role: MANAGER, Autoaccept: true},
 	}
 )
 
